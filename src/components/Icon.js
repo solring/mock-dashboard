@@ -2,7 +2,9 @@ import './Icon.css';
 import PropTypes from 'prop-types';
 
 const Icon = ({ name, size = "md", ...props}) => (
-  <span className={`align-middle material-icons icon icon--${size}`}>{name}</span>
+  <span className={`align-middle material-icons icon icon--${size} ${props.className}`}>
+    {name}
+  </span>
 );
 
 Icon.propTypes = {
