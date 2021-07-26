@@ -12,8 +12,8 @@ const SidebarItem = (props) => {
 
 
   return (
-    <li className={`bg-info text-primary SidebarItem ${ active ? "active" : ""}`} >
-      <a className={`d-flex align-items-center text-bold ${active?"text-primary":"text-dark"}` }
+    <li className={`bg-info SidebarItem ${ active ? "active" : ""}`} >
+      <a className={`d-flex align-items-center text-bold`}
         onClick={onSelected}>
         <Icon name={icon} className="d-block" size="lg"/>
         <p className="mx-3">

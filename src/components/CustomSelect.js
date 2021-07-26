@@ -5,7 +5,7 @@ import { Dropdown } from 'react-bootstrap';
 
 const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
   <a
-    className="h6 text-dark px-3"
+    className="link-inverted h6 px-3"
     href=""
     ref={ref}
     onClick={(e) => {
