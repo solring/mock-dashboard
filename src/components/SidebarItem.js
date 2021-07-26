@@ -1,26 +1,34 @@
 import PropTypes from 'prop-types';
-import { Nav } from 'react-bootstrap';
 
 import Icon from './Icon';
 
 const SidebarItem = (props) => {
   const {
+    text,
     icon = "",
-    text
+    active = false,
+    onSelected
   } = props
 
 
   return (
-    <Nav.Item className="bg-info text-primary p-3 SidebarItem border-left border-primary">
-      <Icon name={icon} className="mr-3"/>
-      {text}
-    </Nav.Item>
+    <li className={`bg-info text-primary SidebarItem ${ active ? "active" : ""}`} >
+      <a className={`d-flex align-items-center text-bold ${active?"text-primary":"text-dark"}` }
+        onClick={onSelected}>
+        <Icon name={icon} className="d-block" size="lg"/>
+        <p className="mx-3">
+          {text}
+        </p>
+      </a>
+    </li>
   )
 };
 
 SidebarItem.propTypes = {
   icon: PropTypes.string,
-  text: PropTypes.string.isRequired
+  active: PropTypes.bool,
+  text: PropTypes.string.isRequired,
+  onSelected: PropTypes.func
 };
 
 export default SidebarItem;

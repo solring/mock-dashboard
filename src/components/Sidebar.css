@@ -1,0 +1,8 @@
+.Sidebar {
+  padding: 40px 0;
+}
+
+.Sidebar .logo,
+.Sidebar .footer {
+  margin-left: 30px;
+}

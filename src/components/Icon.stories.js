@@ -9,12 +9,12 @@ const Template = (args) => <Icon {...args} />;
 
 export const Normal = Template.bind({});
 Normal.args = {
-  name: "accessment",
+  name: "assessment",
   size: "md",
 };
 
 export const Large = Template.bind({});
 Large.args = {
-  name: "accessment",
+  name: "assessment",
   size: "large",
 };

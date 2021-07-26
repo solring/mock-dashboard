@@ -9,5 +9,8 @@
 @import './assets/style/configs/_base.scss';
 
 @import './assets/style/utils/_mixins.scss';
+@import './assets/style/utils/_utils.scss';
 
+// Components
+@import './assets/style/images';
 @import './components/SidebarItem.scss';

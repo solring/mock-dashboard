@@ -1,0 +1,4 @@
+.text-hidden-logo {
+  display: block;
+  @include hideText;
+}
