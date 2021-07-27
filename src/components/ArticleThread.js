@@ -20,6 +20,28 @@ const ArticleThread = (props) => {
     }
   }
 
+  const footer = (
+    <div className="d-flex justify-content-between mt-3">
+      <div>
+        <a href="#" className="me-4">
+          <Icon name="navigate_before" size="lg" />
+        </a>
+        <a href="#">
+          <Icon name="navigate_next" size="lg" />
+        </a>
+      </div>
+
+      <div className="d-flex">
+        <button className="btn btn-outline-primary me-3 btn-wide" role="button">
+          Mark as read
+        </button>
+        <button className="btn btn-primary btn-wide" role="button">
+          Reply
+        </button>
+      </div>
+    </div>
+  )
+
   return (
     <div>
       <div className="card">
@@ -41,25 +63,7 @@ const ArticleThread = (props) => {
         </div>
       </div>
 
-      <div className="d-flex justify-content-between mt-3">
-        <div>
-          <a href="#" className="me-4">
-            <Icon name="navigate_before" size="lg" />
-          </a>
-          <a href="#">
-            <Icon name="navigate_next" size="lg" />
-          </a>
-        </div>
-
-        <div className="d-flex">
-          <button className="btn btn-outline-primary me-3 btn-wide">
-            Mark as read
-          </button>
-          <button className="btn btn-primary btn-wide">
-            Reply
-          </button>
-        </div>
-      </div>
+      {footer}
     </div>
   );
 }

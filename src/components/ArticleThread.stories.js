@@ -4,7 +4,7 @@ import { article1, article2 } from '../utils/mockdata';
 export default {
   title: 'Article/ArticleThread',
   component: ArticleThread
-}
+};
 
 const Template = (args) => <ArticleThread {...args} />;
 
