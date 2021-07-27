@@ -1,0 +1,17 @@
+$custom-border-radius: 2px;
+
+.list-all-border {
+  &>li, th, td {
+    border: 1px solid $info-dark;
+
+    &:first-child {
+      border-top-left-radius: $custom-border-radius;
+      border-top-right-radius: $custom-border-radius;
+    }
+
+    &:last-child {
+      border-bottom-left-radius: $custom-border-radius;
+      border-bottom-right-radius: $custom-border-radius;
+    }
+  }
+}

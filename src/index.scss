@@ -12,5 +12,9 @@
 @import './assets/style/utils/_utils.scss';
 
 // Components
-@import './assets/style/images';
+@import './assets/style/_images.scss';
+@import './assets/style/_list.scss';
+@import './assets/style/_button.scss';
+
 @import './components/SidebarItem.scss';
+@import './components/ArticleThread.scss';

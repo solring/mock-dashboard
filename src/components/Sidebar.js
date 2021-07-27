@@ -20,8 +20,8 @@ const Sidebar = (props) => {
       </h1>
 
       <ul className="flex-grow-1 flex-shrink-1 overflow-scroll">
-        {itemList.map((item) => (
-          <SidebarItem text={item.title} icon={item.icon} active={item.active} onSelected={onItemSelected}/>
+        {itemList.map((item, idx) => (
+          <SidebarItem key={idx} text={item.title} icon={item.icon} active={item.active} onSelected={onItemSelected}/>
         ))}
       </ul>
 

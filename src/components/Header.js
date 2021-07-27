@@ -18,7 +18,7 @@ const Header = (props) => {
         {props.children}
       </div>
       <div className="flex-grow-0 flex-shrink-0">
-        <a className="link-inverted me-2" href="#">
+        <a className="link-inverted me-4" href="#">
           <Icon  name="notifications" size="lg" />
         </a>
         <a className="link-inverted" href="#">

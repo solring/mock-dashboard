@@ -1,0 +1,15 @@
+.custom-button {
+  color: $dark;
+  background-color: $info;
+  border: 1px solid $info-dark;
+  border-radius: $border-radius;
+
+  &:hover {
+    background-color: $info-dark;
+  }
+}
+
+.btn-wide {
+  padding-left: 32px;
+  padding-right: 32px;
+}

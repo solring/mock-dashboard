@@ -13,10 +13,10 @@ const SidebarItem = (props) => {
 
   return (
     <li className={`bg-info SidebarItem ${ active ? "active" : ""}`} >
-      <a className={`d-flex align-items-center text-bold`}
+      <a className={`d-flex align-items-center`}
         onClick={onSelected}>
         <Icon name={icon} className="d-block" size="lg"/>
-        <p className="mx-3">
+        <p className="mx-3 fw-bold">
           {text}
         </p>
       </a>

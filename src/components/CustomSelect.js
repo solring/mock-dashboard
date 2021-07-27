@@ -31,9 +31,9 @@ const CustomSelect = (props) => {
     <Dropdown.Toggle as={CustomToggle} id={selectId}>
       {selected}
     </Dropdown.Toggle>
-    <Dropdown.Menu aria-labelledby={selectId}>
+    <Dropdown.Menu as="ul" aria-labelledby={selectId}>
       {list.map((item, i) => (
-        <Dropdown.Item eventKey={i} onClick={() => onSelect(item, i)}>{item}</Dropdown.Item>
+        <Dropdown.Item as="li" key={i} eventKey={i} onClick={() => onSelect(item, i)}>{item}</Dropdown.Item>
       ))}
     </Dropdown.Menu>
     </Dropdown>

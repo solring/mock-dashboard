@@ -6,6 +6,7 @@
 $primary:                       #2A8356;
 $light:                         #FFFFFF;
 $info:                          #EDF4EE;
+$info-dark:                     #CDDDCD;
 
 // Links
 $link-color:                    $primary;
@@ -22,25 +23,22 @@ $h3-font-size:                  $font-size-base * 2; //32px
 $small-font-size:               $font-size-base * 0.75; //12px
 $btn-font-size-lg:              $font-size-base * 1.25; //20px
 
-// Padding
-$headings-margin-bottom:        1rem;
-$input-btn-font-size-lg:        1rem;
-$input-btn-padding-y-lg:        1rem;
-$input-btn-padding-x-lg:        1.5rem;
-$navbar-padding-x:              15px;
-$badge-padding-y:               .25rem;
-$badge-padding-x:               .5rem;
-$badge-font-weight:             normal;
-
 // Border radius
-$border-radius-lg:              8px;
-
-// Navbars
-$navbar-dark-brand-color:       #fff;
-$navbar-dark-color:             #fff;
+$border-radius:                 2px;
 
 // Animation
 $transition-collapse:         height .4s ease !default;
 
 // Dropdown
 $dropdown-link-hover-bg:        $info;
+
+// List Group
+$list-group-border-color:       $info-dark;
+$list-group-active-bg:          $info;
+$list-group-active-border-color:$info-dark;
+
+// Card
+$card-border-color:             $info-dark;
+$card-cap-bg:                   $info;
+$card-cap-padding-x:            12px;
+$card-cap-padding-y:            12px;

@@ -8,16 +8,16 @@ export default {
 
 const dummyHandler = () => {};
 
-const Template = (args) => <Sidebar {...args} />
+const Template = (args) => <Sidebar {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
   itemList: [
-    { title: "Title 1", icon: 'settings', active: true},
-    { title: "Title 2", icon: 'assessment', active: false},
-    { title: "Title 3", icon: 'people', active: false},
-    { title: "Title 4", icon: 'question_answer', active: false},
-    { title: "Title 5", icon: 'video_library', active: false},
+    { title: "Settings", icon: 'settings', active: true},
+    { title: "Assignment", icon: 'assessment', active: false},
+    { title: "Admin", icon: 'people', active: false},
+    { title: "Questions", icon: 'question_answer', active: false},
+    { title: "Course", icon: 'video_library', active: false},
   ],
   onItemSelected: dummyHandler,
   userData: {
