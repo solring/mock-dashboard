@@ -4,7 +4,7 @@ import Select from './CustomSelect'
 import Icon from './Icon'
 
 function ReplyEditor(props) {
-  const { onSubmit } = props
+  const { onSubmit, onCancel } = props
 
   const textOptions = [
     "Body Text",
@@ -47,10 +47,11 @@ function ReplyEditor(props) {
 
   const buttonFooter = (
     <div className="d-flex justify-content-end mt-4">
-      <button className="btn btn-outline-primary me-3 btn-wide" role="button">
+      <button className="btn btn-outline-primary me-3 btn-wide"
+        role="button" onClick={() => onCancel()}>
         Cancel
       </button>
-      <button className="btn btn-primary btn-wide" role="button" onClick={onSubmit}>
+      <button className="btn btn-primary btn-wide" role="button" onClick={onSubmit(content)}>
         Reply
       </button>
     </div>
@@ -80,6 +81,7 @@ function ReplyEditor(props) {
 
 ReplyEditor.propTypes = {
   onSubmit: PropTypes.func,
+  onCancel: PropTypes.func,
 }
 
 export default ReplyEditor

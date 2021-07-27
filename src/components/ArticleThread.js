@@ -1,10 +1,17 @@
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+
 import Icon from './Icon';
+import CustomCollapse from './CustomCollapse';
+import ReplyEditor from './ReplyEditor';
 
 import ArticleContent from './ArticleContent';
 
 const ArticleThread = (props) => {
   const { title, category, thread } = props;
+
+  // For Text Editor
+  const [ toggle, setToggle ] = useState(false);
 
   const genArticles = () => {
     if(thread && thread.length > 0) {
@@ -35,7 +42,9 @@ const ArticleThread = (props) => {
         <button className="btn btn-outline-primary me-3 btn-wide" role="button">
           Mark as read
         </button>
-        <button className="btn btn-primary btn-wide" role="button">
+        <button className="btn btn-primary btn-wide" role="button"
+          onClick={() => setToggle(true)}
+        >
           Reply
         </button>
       </div>
@@ -64,6 +73,12 @@ const ArticleThread = (props) => {
       </div>
 
       {footer}
+      <CustomCollapse on={toggle}>
+        <ReplyEditor
+          onCancel={() => setToggle(false)}
+          onSubmit={(e) => {}}
+        />
+      </CustomCollapse>
     </div>
   );
 }

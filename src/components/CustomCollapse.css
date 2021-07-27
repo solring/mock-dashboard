@@ -1,0 +1,11 @@
+.CustomCollapse {
+  overflow: hidden;
+  position: relative;
+  transform: translateY(-100%) scale(1);
+  transform-origin: bottom right;
+  transition: transform .35s linear;
+}
+
+.CustomCollapse:not(.show) {
+  transform: translateY(-100%) scale(0);
+}
