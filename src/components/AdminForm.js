@@ -6,10 +6,10 @@ function AdminForm(props) {
   const {
     userData,
     editMode = false,
-    show = false,
     onSubmit,
     onVerify,
     onDelete,
+    onClose
   } = props;
 
   const [state, setState] = useState({
@@ -171,11 +171,11 @@ function AdminForm(props) {
 
   return (
       <div className="modal-dialog modal-dialog-scrollable">
-        <form className="modal-content" onSubmit={onSubmit(state)}>
+        <form className="modal-content" onSubmit={() => onSubmit(state)}>
 
           <div className="modal-header border-botton-0">
             <h3>{editMode? "Edit ": "New "}Admin</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" onClick={onClose}></button>
           </div>
 
           <div className="modal-body">
@@ -230,8 +230,8 @@ AdminForm.propTypes = {
   onSubmit: PropTypes.func,
   onVerify: PropTypes.func,
   onDelete: PropTypes.func,
+  onClose: PropTypes.func,
   editMode: PropTypes.bool,
-  show: PropTypes.bool,
 };
 
 export default AdminForm;

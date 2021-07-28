@@ -17,3 +17,9 @@ Default.args = {
     {...article2, editable: true}
   ]
 };
+
+export const Empty = Template.bind({});
+Empty.args = {
+  ...Default.args,
+  thread: []
+}

@@ -7,5 +7,4 @@ export default {
 const Template = (args) => <ReplyEditor {...args} />;
 export const Default = Template.bind({});
 Default.args = {
-  onSubmit: () => {}
 }

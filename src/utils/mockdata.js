@@ -20,6 +20,33 @@ export const article2 = {
   content: "Hi Emily, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　• change the display so it isn’t inline."
 }
 
+export const articles = [
+  {
+    title: "Unknown problem about setting",
+    category: "Homework 3",
+    creator: "Emily Collins",
+    time: "1 day ago"
+   },
+  {
+    title: "Cannot find reference files.",
+    category: "Homework 5",
+    creator: "J Baron",
+    time: "3 hrs ago"
+   },
+  {
+    title: "Permission required.",
+    category: "Homework 2",
+    creator: "David Lewis",
+    time: "3 days ago"
+   },
+  {
+    title: "Is overdue homework acceptable?",
+    category: "General",
+    creator: "CK Lin",
+    time: "12 hrs ago"
+   },
+]
+
 export const users = [
   {
     name: "Emir Wicks",
@@ -64,6 +91,51 @@ export const users = [
   {
     name: "Tillie Lucero",
     email: "Tillie.Lucero@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Annika Mcbride",
+    email: "Annika.Mcbride@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Sabrina Stephenson",
+    email: "Sabrina420@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Fatimah Clark",
+    email: "fck@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Annika Mcbride",
+    email: "Annika.Mcbride@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Sabrina Stephenson",
+    email: "Sabrina420@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Fatimah Clark",
+    email: "fck@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Emir Wicks",
+    email: "emir.wicks@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Zaina Goldsmith",
+    email: "zaina863@mail.com",
+    verifies: true,
+  },
+  {
+    name: "Mahima Lopez",
+    email: "Mahima.L@mail.com",
     verifies: true,
   },
 ]

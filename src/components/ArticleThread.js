@@ -23,17 +23,23 @@ const ArticleThread = (props) => {
             </li>
           )}
         </ul>
-      )
+      );
+    } else {
+      return (
+        <div className="alert alert-info">
+          <h6>No articles in this thread.</h6>
+        </div>
+      );
     }
-  }
+  };
 
   const footer = (
     <div className="d-flex justify-content-between mt-3">
       <div>
-        <a href="#" className="me-4">
+        <a className="me-4" onClick={() => {}}>
           <Icon name="navigate_before" size="lg" />
         </a>
-        <a href="#">
+        <a onClick={() => {}}>
           <Icon name="navigate_next" size="lg" />
         </a>
       </div>
@@ -49,7 +55,7 @@ const ArticleThread = (props) => {
         </button>
       </div>
     </div>
-  )
+  );
 
   return (
     <div>
@@ -61,7 +67,7 @@ const ArticleThread = (props) => {
               <p className="small">{category}</p>
               <h6>{title}</h6>
             </div>
-            <a className="btn btn-link link-inverted" href="#">
+            <a className="btn btn-link link-inverted" onClick={(e) => {}}>
               <Icon name="more_vert" size="lg" />
             </a>
           </div>
@@ -81,12 +87,12 @@ const ArticleThread = (props) => {
       </CustomCollapse>
     </div>
   );
-}
+};
 
 ArticleThread.propTypes = {
   title: PropTypes.string,
   category: PropTypes.string,
   thread: PropTypes.array,
-}
+};
 
 export default ArticleThread;

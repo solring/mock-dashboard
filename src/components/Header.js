@@ -18,10 +18,10 @@ const Header = (props) => {
         {props.children}
       </div>
       <div className="flex-grow-0 flex-shrink-0">
-        <a className="link-inverted me-4" href="#">
+        <a className="link-inverted me-4" onClick={(e) => {}}>
           <Icon  name="notifications" size="lg" />
         </a>
-        <a className="link-inverted" href="#">
+        <a className="link-inverted" onClick={(e) => {}}>
           <Icon  name="search" size="lg" />
         </a>
       </div>

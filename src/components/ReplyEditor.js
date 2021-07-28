@@ -51,7 +51,7 @@ function ReplyEditor(props) {
         role="button" onClick={() => onCancel()}>
         Cancel
       </button>
-      <button className="btn btn-primary btn-wide" role="button" onClick={onSubmit(content)}>
+      <button className="btn btn-primary btn-wide" role="button" onClick={() => onSubmit(content)}>
         Reply
       </button>
     </div>
@@ -68,9 +68,7 @@ function ReplyEditor(props) {
           placeholder="Reply an answer..."
           style={{height: "200px"}}
           value={content}
-          onChange={(e) => {
-            setContent(e.target.value)
-          }}
+          onChange={(e) => setContent(e.target.value)}
         />
 
         {buttonFooter}

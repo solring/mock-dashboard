@@ -8,5 +8,5 @@ export default {
 const Template = (args) => <AdminTable {...args} />;
 export const Default = Template.bind({});
 Default.args = {
-  list: users
+  list: users,
 }

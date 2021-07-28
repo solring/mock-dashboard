@@ -38,7 +38,7 @@ function NumPagenation(props) {
         {min && <li key={min} className="page-item"><a className="page-link" onClick={() => onIndex(min)}>{min}</a></li>}
         {min &&
           <li key="upperEllipsis" className="page-item text-primary">
-            <a className="page-link" href="#">...</a>
+            <a className="page-link" onClick={() => {}}>...</a>
           </li>
         }
 

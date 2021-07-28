@@ -30,8 +30,10 @@ const ArticleList = (props) => {
       />
       <div className="list-group mt-2">
         {filtered.map((item, i) =>
-          <ArticleItem {...item}
-            onClick={onItemSelected}
+          <ArticleItem
+            key={i}
+            {...item}
+            onClick={() => onItemSelected(item, i)}
             active={i===selected}
           />
         )}

@@ -16,7 +16,8 @@ const IconButton = (props) => {
 
 IconButton.propTypes = {
   icon: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
+  onClick: PropTypes.func,
 }
 
 export default IconButton;

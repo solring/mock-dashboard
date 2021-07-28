@@ -10,9 +10,6 @@ export default {
   decorators: [decorator]
 };
 
-const simpleOnSelect = (item, idx) => {
-};
-
 const Template = (args) => <CustomSelect {...args} />;
 
 export const Default = Template.bind({});
@@ -25,5 +22,4 @@ Default.args = {
     "Item 3",
     "Item 4",
   ],
-  onSelect: simpleOnSelect,
 };

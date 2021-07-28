@@ -33,7 +33,7 @@ Assessment.args = {
       name="Course"
       selected="Course"
       list={list}
-      onSelected={() => {}}
+      onSelect={() => {}}
     />
   )
 }

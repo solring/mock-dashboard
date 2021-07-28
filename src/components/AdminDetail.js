@@ -12,10 +12,11 @@ function AdminDetail(props) {
     verified,
     profilePic,
     onDelete,
-    onEdit
+    onEdit,
+    onClose
   } = props
 
-  const [on, setOn] = useState(false)
+  const [on, setOn] = useState(false);
 
   return (
     <div className="modal-dialog modal-dialog-centered" >
@@ -32,7 +33,7 @@ function AdminDetail(props) {
               <p className="mb-2 text-muted"><small>{email}</small></p>
               <div>
                 {verified && <span className="bg-info px-2">Verified</span>}
-                <a className="d-block float-end" role="button" onClick={(e) => setOn(!on)}>
+                <a className="d-block float-end" role="button" onClick={() => setOn(!on)}>
                   <Icon name="keyboard_arrow_down"/>
                 </a>
               </div>
@@ -66,6 +67,7 @@ AdminDetail.propTypes = {
   profilePic: PropTypes.string.isRequired,
   onDelete: PropTypes.func,
   onEdit: PropTypes.func,
+  onClose: PropTypes.func,
 }
 
 export default AdminDetail

@@ -1,8 +1,9 @@
 import Icon from './Icon';
 import  PropTypes  from 'prop-types';
 
+
 const AdminTable = (props) => {
-  const {list} = props;
+  const {list, onSelect, onEdit } = props;
   const schema = [
     "ID",
     "Name",
@@ -10,6 +11,13 @@ const AdminTable = (props) => {
     "Verified",
     ""
   ]
+
+  const BlockLink = (props) => (
+    <a className="d-block h-100 text-dark" onClick={() => onSelect(props.item, props.idx)}>
+      {props.children}
+    </a>
+  );
+
   return (
     <table className="table table-hover align-middle">
       <thead>
@@ -19,14 +27,18 @@ const AdminTable = (props) => {
       </thead>
       <tbody>
           {list.map( (item, i) => (
-            <tr className="">
-              <td>{`#${i}`}</td>
-              <td>{item.name}</td>
-              <td>{item.email}</td>
-              <td>{item.verified ? "Yes" : "No"}</td>
+            <tr>
+              <td><BlockLink item={item} idx={i} >{`#${item.id? item.id: i}`}</BlockLink></td>
+              <td><BlockLink item={item} idx={i} >{item.name}</BlockLink></td>
+              <td><BlockLink item={item} idx={i} >{item.email}</BlockLink></td>
+              <td><BlockLink item={item} idx={i} >{item.verified ? "Yes" : "No"}</BlockLink></td>
               <td className="text-end">
-                <Icon className="me-4" name="visibility" size="md" />
-                <Icon name="edit" size="md" />
+                <a className="link-inverted" onClick={() => onSelect(item, i)}>
+                  <Icon className="me-4" name="visibility" size="md" />
+                </a>
+                <a className="link-inverted" onClick={() => onEdit(item, i)}>
+                  <Icon name="edit" size="md" />
+                </a>
               </td>
             </tr>
           ))}
@@ -37,6 +49,8 @@ const AdminTable = (props) => {
 
 AdminTable.propTypes = {
   list: PropTypes.array,
+  onSelect: PropTypes.func,
+  onEdit: PropTypes.func,
 }
 
 export default AdminTable;
