@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Icon from './Icon';
+import { Modal } from 'react-bootstrap';
 
 function AdminForm(props) {
   const {
@@ -9,7 +10,8 @@ function AdminForm(props) {
     onSubmit,
     onVerify,
     onDelete,
-    onClose
+    onClose,
+    show,
   } = props;
 
   const [state, setState] = useState({
@@ -170,15 +172,24 @@ function AdminForm(props) {
   )
 
   return (
-      <div className="modal-dialog modal-dialog-scrollable">
-        <form className="modal-content" onSubmit={() => onSubmit(state)}>
+      <Modal show={show} onHide={onClose}
+        className="modal-dialog-scrollable"
+      >
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          onSubmit(state);
+        }}
+        >
 
-          <div className="modal-header border-botton-0">
+          <Modal.Header className="border-botton-0 pb-0">
             <h3>{editMode? "Edit ": "New "}Admin</h3>
-            <button type="button" class="btn-close" onClick={onClose}></button>
-          </div>
+            <button
+              className="btn-close" type="button"
+              aria-label="Close" onClick={onClose}>
+            </button>
+          </Modal.Header>
 
-          <div className="modal-body">
+          <Modal.Body>
             <ul class="list-w-divider">
 
               <li key="account">
@@ -200,18 +211,18 @@ function AdminForm(props) {
               }
 
             </ul>
-          </div>
+          </Modal.Body>
 
-          <div className="modal-footer" >
+          <Modal.Footer className="py-3" >
             <button className="btn btn-outline-primary btn-wide me-3" data-bs-dismiss="modal" aria-label="Cancel">
               Cancel
             </button>
             <button className="btn btn-primary btn-wide" role="submit">
               {editMode? "Update" : "Add"}
             </button>
-          </div>
+          </Modal.Footer>
         </form>
-      </div>
+      </Modal>
   )
 };
 
@@ -230,8 +241,9 @@ AdminForm.propTypes = {
   onSubmit: PropTypes.func,
   onVerify: PropTypes.func,
   onDelete: PropTypes.func,
-  onClose: PropTypes.func,
   editMode: PropTypes.bool,
+  onClose: PropTypes.func,
+  show: PropTypes.bool,
 };
 
 export default AdminForm;

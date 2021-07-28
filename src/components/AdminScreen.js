@@ -8,7 +8,6 @@ import AdminDetail from './AdminDetail';
 import AdminForm from './AdminForm';
 
 import { users } from '../utils/mockdata';
-import Icon from './Icon';
 
 const NUMBER_PER_PAGE = 7;
 
@@ -25,6 +24,7 @@ export default function AdminScreen() {
   const pagesLen = Math.floor(userList.length / NUMBER_PER_PAGE) + 1;
 
   useEffect(() => {
+    //TODO: fetch user list
     setUserList( users.map((item, i) => ({...item, id: i})) )
   }, [])
 
@@ -50,12 +50,19 @@ export default function AdminScreen() {
   }
 
   const onNewUser = () => {
-    setUserEdit({});
+    setUserEdit({
+      userData: {
+        name: "",
+        email: "",
+        verified: false
+      },
+      editMode: false
+  });
     setToggleForm(true);
   }
 
   const onEditUser = (userdata, idx) => {
-    setUserEdit(userdata);
+    setUserEdit({ userData: userdata, editMode: true });
     setToggleForm(true);
   }
 
@@ -84,14 +91,17 @@ export default function AdminScreen() {
         onIndex={onPageChange}
       />
 
-      <div className={`modal fade ${toggleDetail ? "show" : ""}`}>
-        <AdminDetail {...user} onClose={() => setToggleDetail(false)}/>
-      </div>
+      <AdminDetail
+        {...user}
+        show={toggleDetail}
+        onClose={() => setToggleDetail(false)}
+      />
 
-
-      <div className={`modal fade ${toggleForm ? "show" : ""}`}>
-        <AdminForm {...userEdit} onClose={() => setToggleForm(false)}/>
-      </div>
+      <AdminForm
+        {...userEdit}
+        show={toggleForm}
+        onClose={() => setToggleForm(false)}
+      />
     </div>
   )
 };

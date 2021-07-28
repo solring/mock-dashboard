@@ -11,6 +11,7 @@ export const EditMode = Template.bind({});
 EditMode.args = {
   userData: userdata,
   editMode: true,
+  show: true
 }
 
 export const EditMode_Verified = Template.bind({});
@@ -20,10 +21,12 @@ EditMode_Verified.args = {
     verified: true,
   },
   editMode: true,
+  show: true
 }
 
 export const AddMode = Template.bind({});
 AddMode.args = {
   userData: null,
   editMode: false,
+  show: true
 }

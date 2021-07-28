@@ -10,7 +10,8 @@ const Template = (args) => <AdminDetail {...args} />
 export const Default = Template.bind({})
 Default.args = {
   ...userdata,
-  id: 1
+  id: 1,
+  show: true
 }
 
 export const Verified = Template.bind({})

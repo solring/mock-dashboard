@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Icon from './Icon'
-import { Collapse } from 'react-bootstrap'
+import { Collapse, Modal } from 'react-bootstrap'
 
 function AdminDetail(props) {
   const {
@@ -13,15 +13,15 @@ function AdminDetail(props) {
     profilePic,
     onDelete,
     onEdit,
-    onClose
+    onClose,
+    show
   } = props
 
   const [on, setOn] = useState(false);
 
   return (
-    <div className="modal-dialog modal-dialog-centered" >
-      <div className="modal-content" >
-        <div className="modal-body">
+    <Modal show={show} onHide={onClose} centered>
+        <Modal.Body>
           <div className="d-flex" >
             <div className="flex-shrink-0 me-3">
               <img className="profile-pic--lg" src={profilePic}/>
@@ -39,7 +39,7 @@ function AdminDetail(props) {
               </div>
             </div>
           </div>
-        </div>
+        </Modal.Body>
         <Collapse in={on}>
           <div> {/* essencial for collapse */}
           <div className="modal-footer pt-0">
@@ -53,8 +53,7 @@ function AdminDetail(props) {
           </div>
         </Collapse>
 
-      </div>
-    </div>
+    </Modal>
   )
 }
 
@@ -68,6 +67,7 @@ AdminDetail.propTypes = {
   onDelete: PropTypes.func,
   onEdit: PropTypes.func,
   onClose: PropTypes.func,
+  show: PropTypes.bool,
 }
 
 export default AdminDetail
