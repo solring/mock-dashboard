@@ -19,7 +19,7 @@ const SidebarFooter = (props) => {
 };
 
 SidebarFooter.propTypes = {
-  pic: PropTypes.object,
+  pic: PropTypes.string,
   user: PropTypes.string,
   email: PropTypes.string,
   simple: PropTypes.bool,

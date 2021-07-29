@@ -78,23 +78,27 @@ export default function AdminScreen() {
     </Header>
   );
 
-  const footer = <Pagenation
-    curr={page}
-    window={5}
-    min={1}
-    max={pagesLen}
-    onIndex={onPageChange}
-  />;
+  const footer = (
+    <div className="me-4 my-4">
+      <Pagenation
+        curr={page}
+        window={5}
+        min={1}
+        max={pagesLen}
+        onIndex={onPageChange}
+      />
+    </div>
+  );
 
   return (
     <H100WithHeaderFooter header={header} footer={footer}>
-        <div className="overflow-scroll">
-          <AdminTable
-            list={listPage(page)}
-            onSelect={onUserSelect}
-            onEdit={onEditUser}
-          />
-        </div>
+      <div className="px-4">
+        <AdminTable
+          list={listPage(page)}
+          onSelect={onUserSelect}
+          onEdit={onEditUser}
+        />
+      </div>
 
       <AdminDetail
         {...user}

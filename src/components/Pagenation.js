@@ -35,7 +35,7 @@ function NumPagenation(props) {
           </a>
         </li>
 
-        {min && <li key={min} className="page-item"><a className="page-link" onClick={() => onIndex(min)}>{min}</a></li>}
+        {min && <li key="min" className="page-item"><a className="page-link" onClick={() => onIndex(min)}>{min}</a></li>}
         {min &&
           <li key="upperEllipsis" className="page-item text-primary">
             <a className="page-link" onClick={() => {}}>...</a>
@@ -55,7 +55,7 @@ function NumPagenation(props) {
             <a className="page-link" onClick={() => {}}>...</a>
           </li>
         }
-        {max && <li key={max} className="page-item"><a className="page-link" onClick={()=>onIndex(max)}>{max}</a></li>}
+        {max && <li key="max" className="page-item"><a className="page-link" onClick={()=>onIndex(max)}>{max}</a></li>}
 
         <li key="next" className="page-item">
           <a className="page-link" onClick={onNext}>

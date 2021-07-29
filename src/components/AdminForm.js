@@ -89,10 +89,10 @@ function AdminForm(props) {
     <h4 className="mb-3">Account</h4>
 
     <div className="mb-3" >
-      <label class="form-label" forHtml="username">
+      <label className="form-label" htmlFor="username">
         <small>Name</small>
       </label>
-      <input id="username" type="text" class="form-control"
+      <input id="username" type="text" className="form-control"
         placeholder="Username" required
         value={state.name}
         onChange={ (e) => setState({...state, name: e.target.value}) }
@@ -100,10 +100,10 @@ function AdminForm(props) {
       />
     </div>
     <div>
-      <label class="form-label" forHtml="useremail">
+      <label className="form-label" htmlFor="useremail">
         <small>Email</small>
       </label>
-      <input id="useremail" type="email" class="form-control"
+      <input id="useremail" type="email" className="form-control"
         placeholder="Email" required
         value={state.email}
         onChange={ (e) => setState({...state, email: e.target.value}) }
@@ -123,8 +123,8 @@ function AdminForm(props) {
       value={state.accLevel}
       onChange={(e) => setState({...state, accLevel: e.target.value})}
     >
-      {accessLevels.map((ele) => (
-        <option value={ele}>{ele}</option>
+      {accessLevels.map((ele, i) => (
+        <option key={i} value={ele}>{ele}</option>
       ))}
     </select>
     </React.Fragment>
@@ -141,11 +141,11 @@ function AdminForm(props) {
         const id = `checkBox_${attr}`;
         return (
           <li key={attr} className="form-check mt-3" >
-            <input class="form-check-input" type="checkbox"
+            <input className="form-check-input" type="checkbox"
               value={attr} id={id}
               onChange={(e) => setState({...state, [attr]: e.target.value})}
             />
-            <label class="form-check-label" forHtml={id}>
+            <label className="form-check-label" htmlFor={id}>
               {title}
             </label>
           </li>
@@ -190,7 +190,7 @@ function AdminForm(props) {
           </Modal.Header>
 
           <Modal.Body>
-            <ul class="list-w-divider">
+            <ul className="list-w-divider">
 
               <li key="account">
                 {userBlk}

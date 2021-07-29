@@ -16,5 +16,5 @@ Normal.args = {
 export const Large = Template.bind({});
 Large.args = {
   name: "assessment",
-  size: "large",
+  size: "lg",
 };

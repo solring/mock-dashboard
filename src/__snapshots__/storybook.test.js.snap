@@ -1,0 +1,3649 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Admin/AdminDetail Default 1`] = `null`;
+
+exports[`Storyshots Admin/AdminDetail Verified 1`] = `null`;
+
+exports[`Storyshots Admin/AdminForm Add Mode 1`] = `null`;
+
+exports[`Storyshots Admin/AdminForm Edit Mode 1`] = `null`;
+
+exports[`Storyshots Admin/AdminForm Edit Mode Verified 1`] = `null`;
+
+exports[`Storyshots Admin/AdminTable Default 1`] = `
+<table
+  class="table table-hover align-middle"
+>
+  <thead>
+    <tr>
+      <th>
+        ID
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        Email
+      </th>
+      <th>
+        Verified
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #0
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Emir Wicks
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          emir.wicks@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #1
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Zaina Goldsmith
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          zaina863@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #2
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Mahima Lopez
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Mahima.L@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #3
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Pharrell Murray
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Pharrell.Murray@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #4
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika Mcbride
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika.Mcbride@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #5
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina Stephenson
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina420@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #6
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Fatimah Clark
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          fck@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #7
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Klaudia Rhodes
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          cloud.23@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #8
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Tillie Lucero
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Tillie.Lucero@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #9
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika Mcbride
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika.Mcbride@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #10
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina Stephenson
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina420@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #11
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Fatimah Clark
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          fck@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #12
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika Mcbride
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Annika.Mcbride@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #13
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina Stephenson
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Sabrina420@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #14
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Fatimah Clark
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          fck@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #15
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Emir Wicks
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          emir.wicks@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          No
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #16
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Zaina Goldsmith
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          zaina863@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          #17
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Mahima Lopez
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Mahima.L@mail.com
+        </a>
+      </td>
+      <td>
+        <a
+          class="d-block h-100 text-dark"
+        >
+          Yes
+        </a>
+      </td>
+      <td
+        class="text-end"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md me-4"
+          >
+            visibility
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--md undefined"
+          >
+            edit
+          </span>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Article/ArticleContent Default 1`] = `
+<div
+  class="d-flex"
+>
+  <div
+    class="flex-shrink-0 flex-grow-0 pe-2"
+  >
+    <img
+      class="profile-pic"
+      src="emilywang.jpeg"
+    />
+  </div>
+  <div
+    class="flex-shrink-1 flex-grow-1"
+  >
+    <div
+      class="d-flex justify-content-between"
+    >
+      <div>
+        <p
+          class="fw-bold"
+        >
+          Emily Wang
+        </p>
+        <small
+          class="text-secondary"
+        >
+          10:38 AM (4 hours ago)
+        </small>
+      </div>
+    </div>
+    <p
+      class="my-3"
+    >
+      Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+    </p>
+    <ul
+      class="d-flex overflow-scroll w-100"
+    >
+      <li
+        class="me-3"
+      >
+        <button
+          class="btn custom-button fw-bold"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg me-2"
+          >
+            attach_file
+          </span>
+          HW-2.zip
+        </button>
+      </li>
+      <li
+        class="me-3"
+      >
+        <button
+          class="btn custom-button fw-bold"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg me-2"
+          >
+            attach_file
+          </span>
+          HW-2-2.zip
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Article/ArticleContent Editable 1`] = `
+<div
+  class="d-flex"
+>
+  <div
+    class="flex-shrink-0 flex-grow-0 pe-2"
+  >
+    <img
+      class="profile-pic"
+      src="emilywang.jpeg"
+    />
+  </div>
+  <div
+    class="flex-shrink-1 flex-grow-1"
+  >
+    <div
+      class="d-flex justify-content-between"
+    >
+      <div>
+        <p
+          class="fw-bold"
+        >
+          Emily Wang
+        </p>
+        <small
+          class="text-secondary"
+        >
+          10:38 AM (4 hours ago)
+        </small>
+      </div>
+      <div>
+        <a
+          class="link-inverted me-4"
+          href="#"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            star_outline
+          </span>
+        </a>
+        <a
+          class="link-inverted me-4"
+          href="#"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            edit
+          </span>
+        </a>
+      </div>
+    </div>
+    <p
+      class="my-3"
+    >
+      Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+    </p>
+    <ul
+      class="d-flex overflow-scroll w-100"
+    >
+      <li
+        class="me-3"
+      >
+        <button
+          class="btn custom-button fw-bold"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg me-2"
+          >
+            attach_file
+          </span>
+          HW-2.zip
+        </button>
+      </li>
+      <li
+        class="me-3"
+      >
+        <button
+          class="btn custom-button fw-bold"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg me-2"
+          >
+            attach_file
+          </span>
+          HW-2-2.zip
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Article/ArticleList Default 1`] = `
+<nav>
+  <div
+    class="dropdown"
+  >
+    <a
+      class="link-inverted h6 px-3"
+      href=""
+    >
+      All
+      <span
+        class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+      >
+        keyboard_arrow_down
+      </span>
+    </a>
+  </div>
+  <div
+    class="list-group mt-2"
+  >
+    <a
+      class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+      style="padding: 12px;"
+    >
+      <div>
+        <p
+          class="small"
+        >
+          Homework 3
+        </p>
+        <h6>
+          Unknown problem about setting
+        </h6>
+      </div>
+      <div
+        class="text-end"
+      >
+        <p
+          class="small"
+        >
+          1 day ago
+        </p>
+        <p
+          class="small text-secondary mt-1"
+        >
+          Emily Collins
+        </p>
+      </div>
+    </a>
+    <a
+      class="d-flex justify-content-between text-dark list-group-item-action list-group-item active"
+      style="padding: 12px;"
+    >
+      <div>
+        <p
+          class="small"
+        >
+          Homework 5
+        </p>
+        <h6>
+          Cannot find reference files.
+        </h6>
+      </div>
+      <div
+        class="text-end"
+      >
+        <p
+          class="small"
+        >
+          3 hrs ago
+        </p>
+        <p
+          class="small text-secondary mt-1"
+        >
+          J Baron
+        </p>
+      </div>
+    </a>
+    <a
+      class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+      style="padding: 12px;"
+    >
+      <div>
+        <p
+          class="small"
+        >
+          Homework 2
+        </p>
+        <h6>
+          Permission required.
+        </h6>
+      </div>
+      <div
+        class="text-end"
+      >
+        <p
+          class="small"
+        >
+          3 days ago
+        </p>
+        <p
+          class="small text-secondary mt-1"
+        >
+          David Lewis
+        </p>
+      </div>
+    </a>
+    <a
+      class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+      style="padding: 12px;"
+    >
+      <div>
+        <p
+          class="small"
+        >
+          General
+        </p>
+        <h6>
+          Is overdue homework acceptable?
+        </h6>
+      </div>
+      <div
+        class="text-end"
+      >
+        <p
+          class="small"
+        >
+          12 hrs ago
+        </p>
+        <p
+          class="small text-secondary mt-1"
+        >
+          CK Lin
+        </p>
+      </div>
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`Storyshots Article/ArticleThread Default 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="card-header"
+    >
+      <div
+        class="d-flex justify-content-between"
+      >
+        <div>
+          <p
+            class="small"
+          >
+            Chapter Assignment 2 / HTML&CSS
+          </p>
+          <h6>
+            Please check this file for me, thanks!
+          </h6>
+        </div>
+        <a
+          class="btn btn-link link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            more_vert
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="card-body"
+    >
+      <ul
+        class="ArticleThread__thread"
+      >
+        <li>
+          <div
+            class="d-flex"
+          >
+            <div
+              class="flex-shrink-0 flex-grow-0 pe-2"
+            >
+              <img
+                class="profile-pic"
+                src="emilywang.jpeg"
+              />
+            </div>
+            <div
+              class="flex-shrink-1 flex-grow-1"
+            >
+              <div
+                class="d-flex justify-content-between"
+              >
+                <div>
+                  <p
+                    class="fw-bold"
+                  >
+                    Emily Wang
+                  </p>
+                  <small
+                    class="text-secondary"
+                  >
+                    10:38 AM (4 hours ago)
+                  </small>
+                </div>
+              </div>
+              <p
+                class="my-3"
+              >
+                Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+              </p>
+              <ul
+                class="d-flex overflow-scroll w-100"
+              >
+                <li
+                  class="me-3"
+                >
+                  <button
+                    class="btn custom-button fw-bold"
+                  >
+                    <span
+                      class="align-middle material-icons icon icon--lg me-2"
+                    >
+                      attach_file
+                    </span>
+                    HW-2.zip
+                  </button>
+                </li>
+                <li
+                  class="me-3"
+                >
+                  <button
+                    class="btn custom-button fw-bold"
+                  >
+                    <span
+                      class="align-middle material-icons icon icon--lg me-2"
+                    >
+                      attach_file
+                    </span>
+                    HW-2-2.zip
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="d-flex"
+          >
+            <div
+              class="flex-shrink-0 flex-grow-0 pe-2"
+            >
+              <img
+                class="profile-pic"
+                src="andychen.jpeg"
+              />
+            </div>
+            <div
+              class="flex-shrink-1 flex-grow-1"
+            >
+              <div
+                class="d-flex justify-content-between"
+              >
+                <div>
+                  <p
+                    class="fw-bold"
+                  >
+                    Andy Chen
+                  </p>
+                  <small
+                    class="text-secondary"
+                  >
+                    13:24 AM (1 hours ago)
+                  </small>
+                </div>
+                <div>
+                  <a
+                    class="link-inverted me-4"
+                    href="#"
+                  >
+                    <span
+                      class="align-middle material-icons icon icon--lg undefined"
+                    >
+                      star_outline
+                    </span>
+                  </a>
+                  <a
+                    class="link-inverted me-4"
+                    href="#"
+                  >
+                    <span
+                      class="align-middle material-icons icon icon--lg undefined"
+                    >
+                      edit
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <p
+                class="my-3"
+              >
+                Hi Emily, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　• change the display so it isn’t inline.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="d-flex justify-content-between mt-3"
+  >
+    <div>
+      <a
+        class="me-4"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          navigate_before
+        </span>
+      </a>
+      <a>
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          navigate_next
+        </span>
+      </a>
+    </div>
+    <div
+      class="d-flex"
+    >
+      <button
+        class="btn btn-outline-primary me-3 btn-wide"
+        role="button"
+      >
+        Mark as read
+      </button>
+      <button
+        class="btn btn-primary btn-wide"
+        role="button"
+      >
+        Reply
+      </button>
+    </div>
+  </div>
+  <div
+    class="CustomCollapse  "
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-header"
+      >
+        <ul
+          class="d-flex ReplyEditor__toolbar"
+        >
+          <li
+            class="me-4"
+          >
+            <div
+              class="dropdown"
+            >
+              <a
+                class="link-inverted h6 px-3"
+                href=""
+              >
+                Body Text
+                <span
+                  class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+                >
+                  keyboard_arrow_down
+                </span>
+              </a>
+            </div>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_bold
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_italic
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_list_bulleted
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_list_numbered
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                insert_photo
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                insert_link
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                code
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="card-body"
+      >
+        <textarea
+          class="form-control"
+          placeholder="Reply an answer..."
+          style="height: 200px;"
+        />
+        <div
+          class="d-flex justify-content-end mt-4"
+        >
+          <button
+            class="btn btn-outline-primary me-3 btn-wide"
+            role="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="btn btn-primary btn-wide"
+            role="button"
+          >
+            Reply
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Article/ArticleThread Empty 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="card-header"
+    >
+      <div
+        class="d-flex justify-content-between"
+      >
+        <div>
+          <p
+            class="small"
+          >
+            Chapter Assignment 2 / HTML&CSS
+          </p>
+          <h6>
+            Please check this file for me, thanks!
+          </h6>
+        </div>
+        <a
+          class="btn btn-link link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            more_vert
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="card-body"
+    >
+      <div
+        class="alert alert-info"
+      >
+        <h6>
+          No articles in this thread.
+        </h6>
+      </div>
+    </div>
+  </div>
+  <div
+    class="d-flex justify-content-between mt-3"
+  >
+    <div>
+      <a
+        class="me-4"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          navigate_before
+        </span>
+      </a>
+      <a>
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          navigate_next
+        </span>
+      </a>
+    </div>
+    <div
+      class="d-flex"
+    >
+      <button
+        class="btn btn-outline-primary me-3 btn-wide"
+        role="button"
+      >
+        Mark as read
+      </button>
+      <button
+        class="btn btn-primary btn-wide"
+        role="button"
+      >
+        Reply
+      </button>
+    </div>
+  </div>
+  <div
+    class="CustomCollapse  "
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-header"
+      >
+        <ul
+          class="d-flex ReplyEditor__toolbar"
+        >
+          <li
+            class="me-4"
+          >
+            <div
+              class="dropdown"
+            >
+              <a
+                class="link-inverted h6 px-3"
+                href=""
+              >
+                Body Text
+                <span
+                  class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+                >
+                  keyboard_arrow_down
+                </span>
+              </a>
+            </div>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_bold
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_italic
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_list_bulleted
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                format_list_numbered
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                insert_photo
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                insert_link
+              </span>
+            </a>
+          </li>
+          <li
+            class="me-4"
+          >
+            <a
+              class="link-inverted"
+            >
+              <span
+                class="align-middle material-icons icon icon--lg undefined"
+              >
+                code
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="card-body"
+      >
+        <textarea
+          class="form-control"
+          placeholder="Reply an answer..."
+          style="height: 200px;"
+        />
+        <div
+          class="d-flex justify-content-end mt-4"
+        >
+          <button
+            class="btn btn-outline-primary me-3 btn-wide"
+            role="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="btn btn-primary btn-wide"
+            role="button"
+          >
+            Reply
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Article/Item Active 1`] = `
+<div
+  class="border border-info"
+>
+  <a
+    class="d-flex justify-content-between text-dark list-group-item-action list-group-item active"
+    style="padding: 12px;"
+  >
+    <div>
+      <p
+        class="small"
+      >
+        Homework 1
+      </p>
+      <h6>
+        Question about homework.
+      </h6>
+    </div>
+    <div
+      class="text-end"
+    >
+      <p
+        class="small"
+      >
+        4 hr ago
+      </p>
+      <p
+        class="small text-secondary mt-1"
+      >
+        Emily Y
+      </p>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Article/Item Default 1`] = `
+<div
+  class="border border-info"
+>
+  <a
+    class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+    style="padding: 12px;"
+  >
+    <div>
+      <p
+        class="small"
+      >
+        Homework 1
+      </p>
+      <h6>
+        Question about homework.
+      </h6>
+    </div>
+    <div
+      class="text-end"
+    >
+      <p
+        class="small"
+      >
+        4 hr ago
+      </p>
+      <p
+        class="small text-secondary mt-1"
+      >
+        Emily Y
+      </p>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Article/ReplyEditor Default 1`] = `
+<div
+  class="card"
+>
+  <div
+    class="card-header"
+  >
+    <ul
+      class="d-flex ReplyEditor__toolbar"
+    >
+      <li
+        class="me-4"
+      >
+        <div
+          class="dropdown"
+        >
+          <a
+            class="link-inverted h6 px-3"
+            href=""
+          >
+            Body Text
+            <span
+              class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+            >
+              keyboard_arrow_down
+            </span>
+          </a>
+        </div>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            format_bold
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            format_italic
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            format_list_bulleted
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            format_list_numbered
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            insert_photo
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            insert_link
+          </span>
+        </a>
+      </li>
+      <li
+        class="me-4"
+      >
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            code
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="card-body"
+  >
+    <textarea
+      class="form-control"
+      placeholder="Reply an answer..."
+      style="height: 200px;"
+    />
+    <div
+      class="d-flex justify-content-end mt-4"
+    >
+      <button
+        class="btn btn-outline-primary me-3 btn-wide"
+        role="button"
+      >
+        Cancel
+      </button>
+      <button
+        class="btn btn-primary btn-wide"
+        role="button"
+      >
+        Reply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Header/Header Admin 1`] = `
+<div
+  class="border border-info"
+>
+  <header
+    class="p-4 d-flex justify-content-between"
+    style="padding: 32px;"
+  >
+    <h2
+      class="h5 me-4 flex-grow-0 flex-shrink-0"
+    >
+      Administration
+    </h2>
+    <div
+      class="flex-grow-1 flex-shirnk-1"
+    >
+      <a
+        class="link-inverted h6 p-3"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg align-middle text-primary me-2"
+        >
+          add
+        </span>
+        Add New Admin
+      </a>
+    </div>
+    <div
+      class="flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="link-inverted me-4"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          notifications
+        </span>
+      </a>
+      <a
+        class="link-inverted"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          search
+        </span>
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Header/Header Assessment 1`] = `
+<div
+  class="border border-info"
+>
+  <header
+    class="p-4 d-flex justify-content-between"
+    style="padding: 32px;"
+  >
+    <h2
+      class="h5 me-4 flex-grow-0 flex-shrink-0"
+    >
+      Assessment
+    </h2>
+    <div
+      class="flex-grow-1 flex-shirnk-1"
+    >
+      <div
+        class="dropdown"
+      >
+        <a
+          class="link-inverted h6 px-3"
+          href=""
+        >
+          Course
+          <span
+            class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+          >
+            keyboard_arrow_down
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="link-inverted me-4"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          notifications
+        </span>
+      </a>
+      <a
+        class="link-inverted"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          search
+        </span>
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Header/Header Default 1`] = `
+<div
+  class="border border-info"
+>
+  <header
+    class="p-4 d-flex justify-content-between"
+    style="padding: 32px;"
+  >
+    <h2
+      class="h5 me-4 flex-grow-0 flex-shrink-0"
+    >
+      Page Title
+    </h2>
+    <div
+      class="flex-grow-1 flex-shirnk-1"
+    />
+    <div
+      class="flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="link-inverted me-4"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          notifications
+        </span>
+      </a>
+      <a
+        class="link-inverted"
+      >
+        <span
+          class="align-middle material-icons icon icon--lg undefined"
+        >
+          search
+        </span>
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Primitives/Icon Large 1`] = `
+<span
+  class="align-middle material-icons icon icon--lg undefined"
+>
+  assessment
+</span>
+`;
+
+exports[`Storyshots Primitives/Icon Normal 1`] = `
+<span
+  class="align-middle material-icons icon icon--md undefined"
+>
+  assessment
+</span>
+`;
+
+exports[`Storyshots Primitives/IconButton Default 1`] = `
+<a
+  class="link-inverted h6 p-3"
+>
+  <span
+    class="align-middle material-icons icon icon--lg align-middle text-primary me-2"
+  >
+    add
+  </span>
+  Button title
+</a>
+`;
+
+exports[`Storyshots Primitives/Pagenation Default 1`] = `
+<nav
+  aria-label="page-navigation"
+  class=""
+>
+  <ul
+    class="pagination justify-content-end border-primary"
+  >
+    <li
+      class="page-item"
+    >
+      <a
+        class="page-link"
+      >
+        <span
+          class="align-middle material-icons icon icon--md undefined"
+        >
+          navigate_before
+        </span>
+      </a>
+    </li>
+    <li
+      class="page-item"
+    >
+      <a
+        class="page-link"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="page-item text-primary"
+    >
+      <a
+        class="page-link"
+      >
+        ...
+      </a>
+    </li>
+    <li
+      class="page-item d-none d-md-block "
+    >
+      <a
+        class="page-link"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="page-item d-none d-md-block active"
+    >
+      <a
+        class="page-link"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="page-item d-none d-md-block "
+    >
+      <a
+        class="page-link"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="page-item d-none d-md-block "
+    >
+      <a
+        class="page-link"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="page-item d-none d-md-block "
+    >
+      <a
+        class="page-link"
+      >
+        5
+      </a>
+    </li>
+    <li
+      class="page-item text-primary"
+    >
+      <a
+        class="page-link"
+      >
+        ...
+      </a>
+    </li>
+    <li
+      class="page-item"
+    >
+      <a
+        class="page-link"
+      >
+        20
+      </a>
+    </li>
+    <li
+      class="page-item"
+    >
+      <a
+        class="page-link"
+      >
+        <span
+          class="align-middle material-icons icon icon--md undefined"
+        >
+          navigate_next
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Storyshots Primitives/Select Default 1`] = `
+<div
+  class="border border-info"
+>
+  <div
+    class="dropdown"
+  >
+    <a
+      class="link-inverted h6 px-3"
+      href=""
+    >
+      Init value
+      <span
+        class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+      >
+        keyboard_arrow_down
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Screens/AdminScreen Default 1`] = `
+<div
+  class="vh-100"
+>
+  <div
+    class="h-100 d-flex flex-column undefined"
+  >
+    <header
+      class="p-4 d-flex justify-content-between"
+      style="padding: 32px;"
+    >
+      <h2
+        class="h5 me-4 flex-grow-0 flex-shrink-0"
+      >
+        Administration
+      </h2>
+      <div
+        class="flex-grow-1 flex-shirnk-1"
+      >
+        <a
+          class="link-inverted h6 p-3"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg align-middle text-primary me-2"
+          >
+            add
+          </span>
+          Add new user
+        </a>
+      </div>
+      <div
+        class="flex-grow-0 flex-shrink-0"
+      >
+        <a
+          class="link-inverted me-4"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            notifications
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            search
+          </span>
+        </a>
+      </div>
+    </header>
+    <div
+      class="flex-grow-1 flex-shrink-1"
+      style="overflow-x: hidden; overflow-y: scroll;"
+    >
+      <div
+        class="px-4"
+      >
+        <table
+          class="table table-hover align-middle"
+        >
+          <thead>
+            <tr>
+              <th>
+                ID
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                Verified
+              </th>
+              <th />
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #0
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Emir Wicks
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  emir.wicks@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  No
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #1
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Zaina Goldsmith
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  zaina863@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Yes
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #2
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Mahima Lopez
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Mahima.L@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Yes
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #3
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Pharrell Murray
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Pharrell.Murray@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  No
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #4
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Annika Mcbride
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Annika.Mcbride@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Yes
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #5
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Sabrina Stephenson
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Sabrina420@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  No
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  #6
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Fatimah Clark
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  fck@mail.com
+                </a>
+              </td>
+              <td>
+                <a
+                  class="d-block h-100 text-dark"
+                >
+                  Yes
+                </a>
+              </td>
+              <td
+                class="text-end"
+              >
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md me-4"
+                  >
+                    visibility
+                  </span>
+                </a>
+                <a
+                  class="link-inverted"
+                >
+                  <span
+                    class="align-middle material-icons icon icon--md undefined"
+                  >
+                    edit
+                  </span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div
+      class="flex-shrink-0"
+    >
+      <div
+        class="me-4 my-4"
+      >
+        <nav
+          aria-label="page-navigation"
+          class=""
+        >
+          <ul
+            class="pagination justify-content-end border-primary"
+          >
+            <li
+              class="page-item"
+            >
+              <a
+                class="page-link"
+              >
+                <span
+                  class="align-middle material-icons icon icon--md undefined"
+                >
+                  navigate_before
+                </span>
+              </a>
+            </li>
+            <li
+              class="page-item"
+            >
+              <a
+                class="page-link"
+              >
+                1
+              </a>
+            </li>
+            <li
+              class="page-item text-primary"
+            >
+              <a
+                class="page-link"
+              >
+                ...
+              </a>
+            </li>
+            <li
+              class="page-item d-none d-md-block active"
+            >
+              <a
+                class="page-link"
+              >
+                1
+              </a>
+            </li>
+            <li
+              class="page-item d-none d-md-block "
+            >
+              <a
+                class="page-link"
+              >
+                2
+              </a>
+            </li>
+            <li
+              class="page-item d-none d-md-block "
+            >
+              <a
+                class="page-link"
+              >
+                3
+              </a>
+            </li>
+            <li
+              class="page-item text-primary"
+            >
+              <a
+                class="page-link"
+              >
+                ...
+              </a>
+            </li>
+            <li
+              class="page-item"
+            >
+              <a
+                class="page-link"
+              >
+                3
+              </a>
+            </li>
+            <li
+              class="page-item"
+            >
+              <a
+                class="page-link"
+              >
+                <span
+                  class="align-middle material-icons icon icon--md undefined"
+                >
+                  navigate_next
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Screens/AssignmentScreen Default 1`] = `
+<div
+  class="vh-100"
+>
+  <div
+    class="h-100 d-flex flex-column undefined"
+  >
+    <header
+      class="p-4 d-flex justify-content-between"
+      style="padding: 32px;"
+    >
+      <h2
+        class="h5 me-4 flex-grow-0 flex-shrink-0"
+      >
+        Assignment
+      </h2>
+      <div
+        class="flex-grow-1 flex-shirnk-1"
+      >
+        <div
+          class="dropdown"
+        >
+          <a
+            class="link-inverted h6 px-3"
+            href=""
+          >
+            Course 1
+            <span
+              class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+            >
+              keyboard_arrow_down
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex-grow-0 flex-shrink-0"
+      >
+        <a
+          class="link-inverted me-4"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            notifications
+          </span>
+        </a>
+        <a
+          class="link-inverted"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg undefined"
+          >
+            search
+          </span>
+        </a>
+      </div>
+    </header>
+    <div
+      class="flex-grow-1 flex-shrink-1"
+      style="overflow-x: hidden; overflow-y: scroll;"
+    >
+      <div
+        class="px-4 h-100 row"
+      >
+        <div
+          class="col-12 col-lg-4 mb-4 h-100 overflow-scroll"
+        >
+          <nav>
+            <div
+              class="dropdown"
+            >
+              <a
+                class="link-inverted h6 px-3"
+                href=""
+              >
+                All
+                <span
+                  class="align-middle material-icons icon icon--md align-middle text-primary ms-1"
+                >
+                  keyboard_arrow_down
+                </span>
+              </a>
+            </div>
+            <div
+              class="list-group mt-2"
+            >
+              <a
+                class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+                style="padding: 12px;"
+              >
+                <div>
+                  <p
+                    class="small"
+                  >
+                    Homework 3
+                  </p>
+                  <h6>
+                    Unknown problem about setting
+                  </h6>
+                </div>
+                <div
+                  class="text-end"
+                >
+                  <p
+                    class="small"
+                  >
+                    1 day ago
+                  </p>
+                  <p
+                    class="small text-secondary mt-1"
+                  >
+                    Emily Collins
+                  </p>
+                </div>
+              </a>
+              <a
+                class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+                style="padding: 12px;"
+              >
+                <div>
+                  <p
+                    class="small"
+                  >
+                    Homework 5
+                  </p>
+                  <h6>
+                    Cannot find reference files.
+                  </h6>
+                </div>
+                <div
+                  class="text-end"
+                >
+                  <p
+                    class="small"
+                  >
+                    3 hrs ago
+                  </p>
+                  <p
+                    class="small text-secondary mt-1"
+                  >
+                    J Baron
+                  </p>
+                </div>
+              </a>
+              <a
+                class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+                style="padding: 12px;"
+              >
+                <div>
+                  <p
+                    class="small"
+                  >
+                    Homework 2
+                  </p>
+                  <h6>
+                    Permission required.
+                  </h6>
+                </div>
+                <div
+                  class="text-end"
+                >
+                  <p
+                    class="small"
+                  >
+                    3 days ago
+                  </p>
+                  <p
+                    class="small text-secondary mt-1"
+                  >
+                    David Lewis
+                  </p>
+                </div>
+              </a>
+              <a
+                class="d-flex justify-content-between text-dark list-group-item-action list-group-item "
+                style="padding: 12px;"
+              >
+                <div>
+                  <p
+                    class="small"
+                  >
+                    General
+                  </p>
+                  <h6>
+                    Is overdue homework acceptable?
+                  </h6>
+                </div>
+                <div
+                  class="text-end"
+                >
+                  <p
+                    class="small"
+                  >
+                    12 hrs ago
+                  </p>
+                  <p
+                    class="small text-secondary mt-1"
+                  >
+                    CK Lin
+                  </p>
+                </div>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="col-12 col-lg-8 h-100 overflow-scroll"
+        />
+      </div>
+    </div>
+    <div
+      class="flex-shrink-0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Sidebar/Sidebar Default 1`] = `
+<div
+  class="vh-100"
+>
+  <nav
+    class="bg-info Sidebar h-100 d-flex flex-column"
+  >
+    <h1
+      class="logo  mb-5 flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="text-hidden-logo"
+        href="/"
+      >
+        ANSWER
+      </a>
+    </h1>
+    <ul
+      class="flex-grow-1 flex-shrink-1 overflow-scroll"
+    >
+      <li
+        class="bg-info SidebarItem active"
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            settings
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Settings
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            assessment
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Assignment
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            people
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Admin
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            question_answer
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Questions
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            video_library
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Course
+          </p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Sidebar/Sidebar Login 1`] = `
+<div
+  class="vh-100"
+>
+  <nav
+    class="bg-info Sidebar h-100 d-flex flex-column"
+  >
+    <h1
+      class="logo  mb-5 flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="text-hidden-logo"
+        href="/"
+      >
+        ANSWER
+      </a>
+    </h1>
+    <ul
+      class="flex-grow-1 flex-shrink-1 overflow-scroll"
+    >
+      <li
+        class="bg-info SidebarItem active"
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            settings
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Settings
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            assessment
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Assignment
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            people
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Admin
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            question_answer
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Questions
+          </p>
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            video_library
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          >
+            Course
+          </p>
+        </a>
+      </li>
+    </ul>
+    <a
+      class="d-flex text-dark footer flex-grow-0 flex-shrink-0"
+    >
+      <div
+        class="flex-shrink-0"
+      >
+        <img
+          alt="profile"
+          class="profile-pic"
+          src="andychen.jpeg"
+        />
+      </div>
+      <div
+        class="flex-shrink-1 ms-3"
+      >
+        <h6
+          class="title mb-1"
+        >
+          David Lee
+        </h6>
+        <p
+          class="subtitle text-secondary"
+        >
+          david12lee@email.cc
+        </p>
+      </div>
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Sidebar/Sidebar Simple 1`] = `
+<div
+  class="vh-100"
+>
+  <nav
+    class="bg-info Sidebar h-100 d-flex flex-column"
+  >
+    <h1
+      class="logo logo--sm mb-5 flex-grow-0 flex-shrink-0"
+    >
+      <a
+        class="text-hidden-logo"
+        href="/"
+      >
+        ANSWER
+      </a>
+    </h1>
+    <ul
+      class="flex-grow-1 flex-shrink-1 overflow-scroll"
+    >
+      <li
+        class="bg-info SidebarItem active"
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            settings
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          />
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            assessment
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          />
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            people
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          />
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            question_answer
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          />
+        </a>
+      </li>
+      <li
+        class="bg-info SidebarItem "
+      >
+        <a
+          class="d-flex align-items-center"
+        >
+          <span
+            class="align-middle material-icons icon icon--lg d-block"
+          >
+            video_library
+          </span>
+          <p
+            class="mx-3 fw-bold"
+          />
+        </a>
+      </li>
+    </ul>
+    <a
+      class="d-flex text-dark footer flex-grow-0 flex-shrink-0"
+    >
+      <div
+        class="flex-shrink-0"
+      >
+        <img
+          alt="profile"
+          class="profile-pic"
+          src="andychen.jpeg"
+        />
+      </div>
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Sidebar/SidebarFooter Default 1`] = `
+<a
+  class="d-flex text-dark undefined"
+>
+  <div
+    class="flex-shrink-0"
+  >
+    <img
+      alt="profile"
+      class="profile-pic"
+      src="andychen.jpeg"
+    />
+  </div>
+  <div
+    class="flex-shrink-1 ms-3"
+  >
+    <h6
+      class="title mb-1"
+    >
+      User Name
+    </h6>
+    <p
+      class="subtitle text-secondary"
+    >
+      test@email.cc
+    </p>
+  </div>
+</a>
+`;
+
+exports[`Storyshots Sidebar/SidebarItem Active 1`] = `
+<li
+  class="bg-info SidebarItem active"
+>
+  <a
+    class="d-flex align-items-center"
+  >
+    <span
+      class="align-middle material-icons icon icon--lg d-block"
+    >
+      assessment
+    </span>
+    <p
+      class="mx-3 fw-bold"
+    >
+      Item Title
+    </p>
+  </a>
+</li>
+`;
+
+exports[`Storyshots Sidebar/SidebarItem Normal 1`] = `
+<li
+  class="bg-info SidebarItem "
+>
+  <a
+    class="d-flex align-items-center"
+  >
+    <span
+      class="align-middle material-icons icon icon--lg d-block"
+    >
+      assessment
+    </span>
+    <p
+      class="mx-3 fw-bold"
+    >
+      Item Title
+    </p>
+  </a>
+</li>
+`;

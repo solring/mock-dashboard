@@ -64,12 +64,12 @@ function AdminDetail(props) {
 }
 
 AdminDetail.propTypes = {
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  email: PropTypes.string.isRequired,
-  accLevel: PropTypes.string.isRequired,
-  verified: PropTypes.bool.isRequired,
-  profilePic: PropTypes.string.isRequired,
+  id: PropTypes.number,
+  name: PropTypes.string,
+  email: PropTypes.string,
+  accLevel: PropTypes.string,
+  verified: PropTypes.bool,
+  profilePic: PropTypes.string,
   onDelete: PropTypes.func,
   onEdit: PropTypes.func,
   onClose: PropTypes.func,

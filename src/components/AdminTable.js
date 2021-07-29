@@ -21,18 +21,18 @@ const AdminTable = (props) => {
   return (
     <table className="table table-hover align-middle">
       <thead>
-        <tr>
-          {schema.map( s => <th>{s}</th>)}
+        <tr key="header">
+          {schema.map( (s, i) => <th key={i}>{s}</th>)}
         </tr>
       </thead>
       <tbody>
           {list.map( (item, i) => (
-            <tr>
-              <td><BlockLink item={item} idx={i} >{`#${item.id? item.id: i}`}</BlockLink></td>
-              <td><BlockLink item={item} idx={i} >{item.name}</BlockLink></td>
-              <td><BlockLink item={item} idx={i} >{item.email}</BlockLink></td>
-              <td><BlockLink item={item} idx={i} >{item.verified ? "Yes" : "No"}</BlockLink></td>
-              <td className="text-end">
+            <tr key={i}>
+              <td key="id"><BlockLink item={item} idx={i} >{`#${item.id? item.id: i}`}</BlockLink></td>
+              <td key="name"><BlockLink item={item} idx={i} >{item.name}</BlockLink></td>
+              <td key="email"><BlockLink item={item} idx={i} >{item.email}</BlockLink></td>
+              <td key="verified"><BlockLink item={item} idx={i} >{item.verified ? "Yes" : "No"}</BlockLink></td>
+              <td key="btns" className="text-end">
                 <a className="link-inverted" onClick={() => onSelect(item, i)}>
                   <Icon className="me-4" name="visibility" size="md" />
                 </a>
