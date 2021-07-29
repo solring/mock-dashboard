@@ -16,7 +16,7 @@ const Sidebar = (props) => {
   return (
     <nav className="bg-info Sidebar h-100 d-flex flex-column">
 
-      <h1 className="logo mb-5 flex-grow-0 flex-shrink-0">
+      <h1 className={`logo ${simple ? "logo--sm":""} mb-5 flex-grow-0 flex-shrink-0`}>
         <a className="text-hidden-logo" href="/">ANSWER</a>
       </h1>
 
@@ -24,7 +24,7 @@ const Sidebar = (props) => {
         {itemList.map((item, idx) => (
           <SidebarItem
             key={idx}
-            text={item.title}
+            text={simple ? "" : item.title}
             icon={item.icon}
             active={item.active}
             onSelect={() => onSelect(item, idx)}
@@ -32,8 +32,8 @@ const Sidebar = (props) => {
         ))}
       </ul>
       { userData &&
-        <SidebarFooter className="footer flex-grow-0 flex-shrink-0" {...userData}/>
-      }
+        <SidebarFooter className="footer flex-grow-0 flex-shrink-0" {...userData} simple={simple}/>
+       }
     </nav>
   )
 };

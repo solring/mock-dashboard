@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import AdminScreen from './components/AdminScreen';
 import AssignmentScreen from './components/AssignmentScreen';
-import { Link, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
 

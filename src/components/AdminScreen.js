@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+import { H100WithHeaderFooter } from './layout/Layouts';
 import Header from './Header';
 import IconButton from './IconButton'
 import AdminTable from './AdminTable';
@@ -67,31 +68,33 @@ export default function AdminScreen() {
   }
 
 
+  const header = (
+  <Header title="Administration">
+      <IconButton
+        icon="add"
+        title="Add new user"
+        onClick={onNewUser}
+      />
+    </Header>
+  );
+
+  const footer = <Pagenation
+    curr={page}
+    window={5}
+    min={1}
+    max={pagesLen}
+    onIndex={onPageChange}
+  />;
+
   return (
-    <div>
-      <Header title="Administration">
-        <IconButton
-          icon="add"
-          title="Add new user"
-          onClick={onNewUser}
-        />
-      </Header>
-
-      <div className="px-4">
-        <AdminTable
-          list={listPage(page)}
-          onSelect={onUserSelect}
-          onEdit={onEditUser}
-        />
-
-        <Pagenation
-          curr={page}
-          window={5}
-          min={1}
-          max={pagesLen}
-          onIndex={onPageChange}
-        />
-      </div>
+    <H100WithHeaderFooter header={header} footer={footer}>
+        <div className="overflow-scroll">
+          <AdminTable
+            list={listPage(page)}
+            onSelect={onUserSelect}
+            onEdit={onEditUser}
+          />
+        </div>
 
       <AdminDetail
         {...user}
@@ -104,6 +107,6 @@ export default function AdminScreen() {
         show={toggleForm}
         onClose={() => setToggleForm(false)}
       />
-    </div>
+    </H100WithHeaderFooter>
   )
 };

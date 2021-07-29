@@ -1,9 +1,14 @@
 import Sidebar from './Sidebar';
 import profile from '../assets/images/andychen.jpeg';
 
+const decos = [
+  (story) => <div className="vh-100">{story()}</div>
+];
+
 export default {
   title: 'Sidebar/Sidebar',
-  component: Sidebar
+  component: Sidebar,
+  decorators: decos
 }
 
 const Template = (args) => <Sidebar {...args} />;
@@ -27,4 +32,10 @@ Login.args = {
     user: "David Lee",
     email: "david12lee@email.cc"
   }
+}
+
+export const Simple = Template.bind({});
+Simple.args = {
+  ...Login.args,
+  simple: true
 }

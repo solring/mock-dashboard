@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types'
+
+import { H100WithHeaderFooter } from './layout/Layouts';
 
 import Header from './Header';
 import CustomSelect from './CustomSelect';
@@ -41,34 +42,34 @@ function AssignmentScreen(props) {
   };
 
   return (
-    <div className="h-100 d-flex flex-column">
+    <H100WithHeaderFooter
+      header={
+        <Header title="Assignment">
+          <CustomSelect
+            name="Course"
+            selected={course}
+            list={courseList}
+            onSelect={onCourseSelect}
+          />
+        </Header>
+      }
+    >
+      <div className="px-4 h-100 row">
 
-      <Header title="Assignment">
-        <CustomSelect
-          name="Course"
-          selected={course}
-          list={courseList}
-          onSelect={onCourseSelect}
-        />
-      </Header>
-
-      <div className="px-4 flex-grow-1">
-        <div className="row h-100">
-          <div className="col-12 col-lg-4 mb-4 h-100 overflow-scroll">
-            <ArticleList list={articles} selected={articleNum} onItemSelected={onArticleSelect}/>
-          </div>
-          <div className="col-12 col-lg-8 h-100 overflow-scroll">
-          { articles && articles.length > 0 && articleNum >= 0 &&
-            <ArticleThread
-              {...articles[articleNum]}
-              thread={thread}
-            />
-          }
-          </div>
+        <div className="col-12 col-lg-4 mb-4 h-100 overflow-scroll">
+          <ArticleList list={articles} selected={articleNum} onItemSelected={onArticleSelect}/>
+        </div>
+        <div className="col-12 col-lg-8 h-100 overflow-scroll">
+        { articles && articles.length > 0 && articleNum >= 0 &&
+          <ArticleThread
+            {...articles[articleNum]}
+            thread={thread}
+          />
+        }
         </div>
 
       </div>
-    </div>
+    </H100WithHeaderFooter>
   );
 };
 
