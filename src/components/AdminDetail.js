@@ -19,8 +19,14 @@ function AdminDetail(props) {
 
   const [on, setOn] = useState(false);
 
+  const onHide = () => {
+    setOn(false);
+    onClose();
+  }
+
+
   return (
-    <Modal show={show} onHide={onClose} centered>
+    <Modal show={show} onHide={onHide} centered>
         <Modal.Body>
           <div className="d-flex" >
             <div className="flex-shrink-0 me-3">
@@ -42,7 +48,7 @@ function AdminDetail(props) {
         </Modal.Body>
         <Collapse in={on}>
           <div> {/* essencial for collapse */}
-          <div className="modal-footer pt-0">
+          <div className="modal-footer pt-0 border-top-0">
             <button className="btn btn-outline-danger btn-wide me-3" role="button" onClick={onDelete}>
               Deactivate
             </button>

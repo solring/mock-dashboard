@@ -41,7 +41,7 @@ function AssignmentScreen(props) {
   };
 
   return (
-    <div>
+    <div className="h-100 d-flex flex-column">
 
       <Header title="Assignment">
         <CustomSelect
@@ -52,12 +52,12 @@ function AssignmentScreen(props) {
         />
       </Header>
 
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-12 col-lg-4 mb-4">
+      <div className="px-4 flex-grow-1">
+        <div className="row h-100">
+          <div className="col-12 col-lg-4 mb-4 h-100 overflow-scroll">
             <ArticleList list={articles} selected={articleNum} onItemSelected={onArticleSelect}/>
           </div>
-          <div className="col-12 col-lg-8">
+          <div className="col-12 col-lg-8 h-100 overflow-scroll">
           { articles && articles.length > 0 && articleNum >= 0 &&
             <ArticleThread
               {...articles[articleNum]}

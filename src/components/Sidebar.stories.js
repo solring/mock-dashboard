@@ -6,8 +6,6 @@ export default {
   component: Sidebar
 }
 
-const dummyHandler = () => {};
-
 const Template = (args) => <Sidebar {...args} />;
 
 export const Default = Template.bind({});
@@ -19,10 +17,14 @@ Default.args = {
     { title: "Questions", icon: 'question_answer', active: false},
     { title: "Course", icon: 'video_library', active: false},
   ],
-  onItemSelected: dummyHandler,
+};
+
+export const Login = Template.bind({});
+Login.args = {
+  ...Default.args,
   userData: {
     pic: profile,
     user: "David Lee",
     email: "david12lee@email.cc"
   }
-};
+}

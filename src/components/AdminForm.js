@@ -214,7 +214,7 @@ function AdminForm(props) {
           </Modal.Body>
 
           <Modal.Footer className="py-3" >
-            <button className="btn btn-outline-primary btn-wide me-3" data-bs-dismiss="modal" aria-label="Cancel">
+            <button className="btn btn-outline-primary btn-wide me-3" onClick={onClose}>
               Cancel
             </button>
             <button className="btn btn-primary btn-wide" role="submit">

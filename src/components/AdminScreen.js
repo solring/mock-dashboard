@@ -68,7 +68,7 @@ export default function AdminScreen() {
 
 
   return (
-    <div className="container-fluid" >
+    <div>
       <Header title="Administration">
         <IconButton
           icon="add"
@@ -77,19 +77,21 @@ export default function AdminScreen() {
         />
       </Header>
 
-      <AdminTable
-        list={listPage(page)}
-        onSelect={onUserSelect}
-        onEdit={onEditUser}
-      />
+      <div className="px-4">
+        <AdminTable
+          list={listPage(page)}
+          onSelect={onUserSelect}
+          onEdit={onEditUser}
+        />
 
-      <Pagenation
-        curr={page}
-        window={5}
-        min={1}
-        max={pagesLen}
-        onIndex={onPageChange}
-      />
+        <Pagenation
+          curr={page}
+          window={5}
+          min={1}
+          max={pagesLen}
+          onIndex={onPageChange}
+        />
+      </div>
 
       <AdminDetail
         {...user}
