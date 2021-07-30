@@ -1,11 +1,13 @@
 .CustomCollapse {
   overflow: hidden;
-  position: relative;
-  transform: translateY(-100%) scale(1);
+  position: absolute;
+  inset: auto 0 0 0;
+
+  transform: scale(1);
   transform-origin: bottom right;
   transition: transform .35s linear;
 }
 
 .CustomCollapse:not(.show) {
-  transform: translateY(-100%) scale(0);
+  transform: scale(0);
 }

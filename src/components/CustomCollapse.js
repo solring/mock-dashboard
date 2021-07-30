@@ -5,7 +5,7 @@ import './CustomCollapse.css'
 function CustomCollapse(props) {
   const { on } = props
   return (
-    <div className={`CustomCollapse ${on ? "show":""} `}>
+    <div className={`CustomCollapse ${on ? "show":""} ${props.className}`}>
       {props.children}
     </div>
   )

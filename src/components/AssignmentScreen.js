@@ -54,12 +54,12 @@ function AssignmentScreen(props) {
         </Header>
       }
     >
-      <div className="px-4 h-100 row">
+      <div className="px-4 pb-4 row">
 
-        <div className="col-12 col-lg-4 mb-4 h-100 overflow-scroll">
+        <div className="col-12 col-lg-4 mb-4">
           <ArticleList list={articles} selected={articleNum} onItemSelected={onArticleSelect}/>
         </div>
-        <div className="col-12 col-lg-8 h-100 overflow-scroll">
+        <div className="col-12 col-lg-8">
         { articles && articles.length > 0 && articleNum >= 0 &&
           <ArticleThread
             {...articles[articleNum]}

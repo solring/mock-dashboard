@@ -58,7 +58,7 @@ const ArticleThread = (props) => {
   );
 
   return (
-    <div>
+    <div className="position-relative">
       <div className="card">
 
         <div className="card-header">
