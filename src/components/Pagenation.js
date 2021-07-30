@@ -44,7 +44,7 @@ function NumPagenation(props) {
 
         {
           nums.map((n) =>
-            <li key={n} className={`page-item d-none d-md-block ${ n === curr ? "active" : ""}`}>
+            <li key={n} className={`page-item ${ n === curr ? "active" : ""}`}>
               <a className="page-link" onClick={() => onIndex(n)}>{n}</a>
             </li>
           )
