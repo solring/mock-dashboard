@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import AdminScreen from './components/AdminScreen';
 import AssignmentScreen from './components/AssignmentScreen';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import HomeScreen from './components/HomeScreen';
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
       <div className="col-10 col-lg-9 h-100">
         <Switch>
           <Route exact path="/">
-            <div>Home</div>
+            <HomeScreen />
           </Route>
           <Route path="/admin">
             <AdminScreen />
