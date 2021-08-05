@@ -3,7 +3,7 @@
   height: 40px;
   background: center / cover no-repeat url(../images/logo-ANSWER.svg);
   // For storybook ↓
-  //background: center / cover no-repeat url(./assets/images/logo-ANSWER.svg);
+  //background: center / cover no-repeat url(/src/assets/images/logo-ANSWER.svg);
 
   &.logo--sm {
     width: 40px;

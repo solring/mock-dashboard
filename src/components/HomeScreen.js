@@ -14,13 +14,6 @@ export default function HomeScreen() {
       <ul className="ms-3">
         <li key={1} style={{"list-style": 'disc'}}>
           <p>
-            Current official SCSS support of Storybook is not working.
-            Workaround is required.
-            Please refer to <a href="https://github.com/solring/react-scss-template">here.</a>
-          </p>
-        </li>
-        <li key={2} style={{"list-style": 'disc'}}>
-          <p>
             Path resolving mechanism is different between node-scss and webpack style loaders.
             Please refer to <a href="https://github.com/solring/react-scss-template/issues/1">This issue.</a>
           </p>

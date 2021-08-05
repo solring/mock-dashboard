@@ -1,7 +1,4 @@
-// old way to import scss file
-import '!style-loader!css-loader!sass-loader!../src/index.scss';
-// WORKAROUND: use normal import when running test
-//import '../src/index.scss';
+import '../src/index.scss';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
