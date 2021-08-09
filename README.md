@@ -16,6 +16,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Launch storybook server at [http://localhost:6006](http://localhost:6006).
 
+> **IMPORTANT:**
+>
+> Due to [this issue](https://github.com/solring/react-scss-template/issues/1), you need to change the image url in `src/assets/style/_images.scss` before running storybook.
+> ``` scss
+> // background: center / cover no-repeat url(../images/logo-ANSWER.svg);
+> // For storybook ↓
+> background: center / cover no-repeat url(/src/assets/images/logo-ANSWER.svg);
+> ```
+> This is a workaround.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.

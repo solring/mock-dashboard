@@ -14,7 +14,7 @@ export default function HomeScreen() {
       <ul className="ms-3">
         <li key={1} style={{"list-style": 'disc'}}>
           <p>
-            Path resolving mechanism is different between node-scss and webpack style loaders.
+            Url resolving mechanisms in scss files are different between create-react-app project and storybook.
             Please refer to <a href="https://github.com/solring/react-scss-template/issues/1">This issue.</a>
           </p>
         </li>
