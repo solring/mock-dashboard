@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import Icon from './Icon';
@@ -7,27 +8,29 @@ const SidebarItem = (props) => {
     text,
     icon = "",
     active = false,
+    url,
     onSelect
   } = props
 
 
   return (
     <li className={`bg-info SidebarItem ${ active ? "active" : ""}`} >
-      <a className={`d-flex align-items-center`}
+      <Link to={url} className={`d-flex align-items-center`}
         onClick={onSelect}>
         <Icon name={icon} className="d-block" size="lg"/>
         <p className="mx-3 fw-bold">
           {text}
         </p>
-      </a>
+      </Link>
     </li>
   )
 };
 
 SidebarItem.propTypes = {
+  text: PropTypes.string.isRequired,
   icon: PropTypes.string,
   active: PropTypes.bool,
-  text: PropTypes.string.isRequired,
+  url: PropTypes.string,
   onSelect: PropTypes.func
 };
 

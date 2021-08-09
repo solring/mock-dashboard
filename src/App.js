@@ -26,8 +26,6 @@ function App() {
     let newArr = Array(menu.length).fill(false);
     newArr[idx] = true;
     setActives(newArr);
-    //window.location.href = menu[idx].link;
-    window.location.assign(menu[idx].link);
   }
 
 

@@ -24,6 +24,7 @@ const Sidebar = (props) => {
         {itemList.map((item, idx) => (
           <SidebarItem
             key={idx}
+            url={item.link}
             text={simple ? "" : item.title}
             icon={item.icon}
             active={item.active}
