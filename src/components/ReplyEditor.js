@@ -46,7 +46,7 @@ function ReplyEditor(props) {
   )
 
   const buttonFooter = (
-    <div className="d-flex justify-content-end mt-4">
+    <div className="text-end mt-4">
       <button className="btn btn-outline-primary me-3 btn-wide"
         role="button" onClick={() => onCancel()}>
         Cancel

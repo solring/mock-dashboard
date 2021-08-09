@@ -104,12 +104,14 @@ export default function AdminScreen() {
         {...user}
         show={toggleDetail}
         onClose={() => setToggleDetail(false)}
+        onDelete={() => setToggleDetail(false)}
       />
 
       <AdminForm
         {...userEdit}
         show={toggleForm}
         onClose={() => setToggleForm(false)}
+        onSubmit={(e) => setToggleForm(false)} // simply close modal
       />
     </H100WithHeaderFooter>
   )

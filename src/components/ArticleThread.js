@@ -44,7 +44,7 @@ const ArticleThread = (props) => {
         </a>
       </div>
 
-      <div className="d-flex">
+      <div>
         <button className="btn btn-outline-primary me-3 btn-wide" role="button">
           Mark as read
         </button>

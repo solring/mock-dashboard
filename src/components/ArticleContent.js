@@ -8,10 +8,10 @@ const ArticleContent = (props) => {
     if (attaches && attaches.length > 0) {
 
       return (
-        <ul className="d-flex overflow-scroll w-100">
+        <ul className="overflow-scroll w-100">
           {attaches.map((a, i) =>
-            <li key={i} className="me-3">
-              <button className="btn custom-button fw-bold" onClick={a.onClick}>
+            <li key={i} className="me-3 d-inline-block">
+              <button className="btn btn-primary custom-button fw-bold" onClick={a.onClick}>
                 <Icon className="me-2" name="attach_file" size="lg" />
                 {a.name}
               </button>
