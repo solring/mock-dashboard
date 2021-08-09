@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useMediaQuery } from '@material-ui/core';
+import { useMedia } from 'react-use';
 
 import Sidebar from './components/Sidebar';
 import AdminScreen from './components/AdminScreen';
@@ -18,7 +18,7 @@ function App() {
     { title: "Settings", icon: 'settings', link: "/"},
   ]
   const [actives, setActives] = useState(Array(menu.length).fill(false));
-  const isMidScreen = useMediaQuery(`(max-width: 920px)`)
+  const isMidScreen = useMedia(`(max-width: 920px)`)
 
   let itemList = menu.map((e, i) => ({...e, active: actives[i]}));
 
@@ -35,11 +35,11 @@ function App() {
     <Router>
 
     <div className="row g-0 vh-100">
-      <div className="col-2 col-lg-3 h-100">
+      <div className="col-2 col-md-3 h-100">
         <Sidebar itemList={itemList} onSelect={onSelect} simple={isMidScreen}/>
       </div>
 
-      <div className="col-10 col-lg-9 h-100">
+      <div className="col-10 col-md-9 h-100">
         <Switch>
           <Route exact path="/">
             <HomeScreen />
